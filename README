@@ -1,13 +1,12 @@
 ActiveRecordIsolation
 =====================
 
-Introduction goes here.
+ActiveRecordIsolation Add Support to Database Isolation Level
 
 
 Example
 =======
 
-Example goes here.
-
-
-Copyright (c) 2011 [name of plugin creator], released under the MIT license
+Person.isolation_dirty()
+result = Person.find_by_name params[:name] # some crazier query here
+Person.isolation_clean()
