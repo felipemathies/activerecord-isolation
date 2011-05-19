@@ -11,6 +11,4 @@ Gem::Specification.new do |s|
 
   s.author = 'Felipe Mathies'
   s.email = 'felipe.mathies@gmail.com'
-  
-  s.add_dependency 'activerecord-informix-adapter', '>= 1.1.1'
 end
